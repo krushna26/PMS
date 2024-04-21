@@ -1,0 +1,5 @@
+1.Parcel Registration: Upon entry into the system, parcels are registered and assigned unique tracking numbers. Relevant details such as sender, recipient, contents, weight, and dimensions are recorded.
+2.Storage Management: The system tracks the location of each parcel within our storage facilities using barcode or RFID technology. It optimizes storage space allocation and facilitates easy retrieval of parcels when needed.
+3.Status Updates: Real-time updates on the status of each parcel are provided, including receipt confirmation, storage location, and delivery progress. Customers can track their parcels through a user-friendly interface.
+4.Delivery Routing: The system optimizes delivery routes based on factors such as delivery addresses, delivery windows, and vehicle capacity. It ensures efficient delivery scheduling and reduces delivery time and costs.
+5.Delivery Confirmation: Upon successful delivery, the system records delivery confirmation details, including the date, time, and recipient signature if applicable. This information is accessible for auditing and customer verification purposes.
