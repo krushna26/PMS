@@ -12,8 +12,6 @@ public class util {
 		System.out.println("Co");
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		System.out.println("Connection ");
-		// con = DriverManager.getConnection("jdbc:mysql://intvmunix1/DB_TVM42_2324",
-		// "USER_TVM42_2324", "Tcs@12345");
 		con = DriverManager.getConnection("jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6686945", "sql6686945",
 				"khgnIKCRn6");
 		System.out.println("Connection Success");
