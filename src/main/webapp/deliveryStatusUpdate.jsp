@@ -23,10 +23,6 @@
         				<p class="error-msg"><%= msg %></p>
         			<%} %>
             </form>
-           <!--  <div id="trackingResult" style="display: none;">
-                <h2>Tracking Status</h2>
-                <span>Status: </span><div id="statusMessage"></div>
-            </div> -->
             
      
     </div>
