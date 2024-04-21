@@ -1,0 +1,179 @@
+
+.body {
+    background-color: white;
+    width:100%;
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.top-bar {
+    background-color: #A3C4F3;
+    border-bottom: dashed #03045e ;
+    color: white;
+    padding: 10px 45px 10px 45px;
+     display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-message {
+    font-size: 16px;
+}
+
+/* .menu 
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+
+       
+    }
+    li {
+        margin-right: 15px;
+
+    }
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+ */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #008080; */
+  background-color: #7d00ff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  /* background-color: #6700e0; */
+  background-color: #5100c1;
+  border-radius: 10px;
+}
+.container {
+    
+    width: 60%;
+    
+    margin: 20px auto;
+    background-color: #A3C4F3;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+   
+    
+}
+ .columnBooking{
+    display: flex;
+    width: 100%;
+    
+    flex-direction: column;
+} 
+
+.left{
+    width: 50%;
+    margin:0 10px;
+    padding: 40px;
+    /* background-color: #E76F51; */
+    border-radius: 10px;
+}
+.right{
+    width: 50%;
+    margin:0 10px;
+    padding: 40px;
+    /* background-color: #E76F51; */
+    border-radius: 10px;
+}
+
+.secDate{
+    margin-top: 103px;
+}
+.secShipping{
+    margin-top: 55px;
+}
+
+.secParcel{
+    margin-top: 30px;
+}
+.secService{
+    margin-top: 30px;
+   
+}
+.secService button{
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    /* font-weight: 600; */
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #7d00ff;
+    color: black;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4361EE;
+}
+.submitBooking{
+    width: 93%;
+    margin: auto;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+}

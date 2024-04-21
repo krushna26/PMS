@@ -1,0 +1,177 @@
+@charset "ISO-8859-1";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+   font-family: "Roboto", sans-serif;
+}
+   
+
+body {
+    
+     /* background: linear-gradient(to bottom right, #A2D2FF 0%, #74b6f5 100%); */
+     background-color:#EEEEEE;
+     background-size: 100% 100%;
+     
+  
+}
+.body{
+	margin-top:-100px;
+}
+.mid{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 30px;
+
+}
+
+#navbar{
+	position: sticky;
+	z-index: 9000;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #008080; */
+  /* background-color: #194A8D; */
+    background: linear-gradient(to bottom right, #522db8 0%, #1c7ce0 100%);
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-weight:600;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  /* background-color: #6700e0; */
+  background-color: #5100c1;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: #5100c1;
+  border-radius: 10px;
+}
+
+
+.container{
+	   position:relative;
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+       justify-content:center;
+       margin:10% auto 0 auto;
+       background-color:white;
+       width:40%;
+       padding:15px;
+        border-radius: 10px;
+      
+}
+.centered h1{
+	padding:10px;
+}
+
+
+ button{
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #7d00ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #5100c1;
+    
+}
+.btndiv{
+	margin-top:30px;
+	display:flex;
+	
+}
+.btn{
+	
+	margin-top:20px;
+	padding: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #7d00ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration:none;
+}
+.btn:hover{
+    background-color: #5100c1;
+    
+}
+
+.box{
+	font-size:18px;
+	margin:20px 0;
+	padding:5px;
+	
+}
+
+.box input{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+table{
+	width:90%;
+	margin:auto;
+	background:white;
+	text-align:left;
+} 
+h2{
+	padding:20px;
+	text-align:center;
+	
+}
+
+select[name="parcelStatus"]{
+
+width:100%;
+ 
+}
+
+
+
+.btnupdate{
+	
+	font-size:15px;
+	width:50%;
+}
+.deliveryStatus{
+	text-align:left;
+}
+
